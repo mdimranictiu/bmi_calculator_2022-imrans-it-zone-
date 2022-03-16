@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    color: #8e44ad;
+    user-select: none;
+    margin-top: 30px;
+    font-family:system-ui;
+}
+.main{
+    width: 50%;
+    height:auto;
+    background: #2980b9;
+    margin: 40px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    opacity: 0.8;
+}
+.input{
+    width: 40%;
+    height: 40px;
+    border: none;
+    outline: none;
+  
+    margin: 5px auto;
+    margin-left: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+.inpu{
+    width: 25%;
+    height: 40px;
+    border: none;
+    outline: none;
+  
+    margin: 5px auto;
+    margin-left: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+.select{
+    width: 15%;
+    height: 40px;
+    border: none;
+    outline: none;
+  
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+#btn{
+    width: 40%;
+    height: 50px;
+    background:#f39c12;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 30%;
+    color: white;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.display{
+  display: none;
+}
+@media(max-width:908px){
+    .main{
+        width: 80%;
+    }
+}
+@media(max-width:650px){
+    .input{
+        width: 60%;
+        height: 40px;
+        border: none;
+        outline: none;
+      
+        margin: 5px auto;
+        margin-left: 20%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .inpu{
+        width: 35%;
+        height: 40px;
+        border: none;
+        outline: none;
+      
+        margin: 5px auto;
+        margin-left: 20%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .select{
+        width: 25%;
+        height: 40px;
+        border: none;
+        outline: none;
+      
+        margin: 5px auto;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+    #btn{
+        width: 60%;
+        height: 50px;
+        background:#f39c12;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 20%;
+        color: white;
+        margin-bottom: 20px;
+    }
+}

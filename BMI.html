@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <h1>BMI CALCULATOR</h1> 
+   <div class="main">
+       <h2>Input Your data</h2>
+       <form>
+           <input type="text" placeholder="Enter You name" class="input" id="uname" >
+           <br><input type="text" placeholder="Enter You age" class="input" id="uage" ><br>
+           <input type="text" placeholder="Your Weight" id="weight" class="inpu">
+           <select name="" id="w_unit"  class="select">
+               <option  value="kg">KG</option>
+           <option  value="pound">Pound</option> 
+               <br>
+               <input type="text" placeholder="Your Height" id="height" class="inpu">
+               <select name="" id="h_unit" class="select">
+                   <option value="meter">Meter</option>
+                   <option value="inch">Inchi</option>
+                   <option value="cent">Centemeter</option>
+               </select>
+           </select>
+           <br>
+           <input type="submit" id="btn"  Value="Calculate">
+           
+       </form>
+       <div id="display" class="display">
+           <h2 style="font-size:35px;">Your Outcome</h2>
+           <br>
+             <h3>Name:  <p id="name"> </p></h3>
+             <h3>Age:  <p id="age"> </p></h3>
+             <h3>Your BMI : <p id="bmi"> </p></h3>
+            
+       </div>
+   </div>
+</body>
+</html>
+<script src="app.js">
+
+</script>
